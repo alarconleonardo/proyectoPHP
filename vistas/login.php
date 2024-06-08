@@ -20,12 +20,12 @@
 
         <section class="formulario">
             <h1>Iniciar sesión</h1>
-            <form action="" method="POST">
-                <label for="username">Usuario:</label>
-                <input type="text" name="username" id="username" required>
+            <form action="../templates/login.php" method="POST">
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" id="usuario" required>
 
-                <label for="password">Contraseña:</label>
-                <input type="password" name="password" id="pasword" required>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="contraseña" id="contraseña" required>
 
                 <button type="submit">Iniciar sesión</button>
             </form>

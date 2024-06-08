@@ -20,18 +20,18 @@
 
         <section class="formulario">
             <h1>Registrarse</h1>
-            <form action="" method="POST">
-                <label for="name">Nombre:</label>
-                <input type="text" name="name" id="name" required>
+            <form action="../templates/registro.php" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" name="nombre" id="nombre" required>
 
-                <label for="username">Usuario:</label>
-                <input type="text" name="username" id="username" required>
+                <label for="usuario">Usuario:</label>
+                <input type="text" name="usuario" id="usuario" required>
 
-                <label for="password">Contraseña:</label>
-                <input type="password" name="password" id="pasword" required>
+                <label for="contraseña">Contraseña:</label>
+                <input type="password" name="contraseña" id="contraseña" required>
 
-                <label for="email">Correo electrónico:</label>
-                <input type="text" name="email" id="email" required>
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" name="correo" id="correo" required>
 
                 <button type="submit">Registrarse</button>
             </form>

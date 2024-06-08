@@ -25,13 +25,23 @@ switch ($pagina) {
         <link rel="stylesheet" href="/vistas/css/plantilla-header.css">
         <link rel="stylesheet" href="/vistas/css/style-login-register.css">
     <?php
+        break;
 
     case "register.php":
     ?>
         <title>Registrarse</title>
         <link rel="stylesheet" href="/vistas/css/plantilla-header.css">
         <link rel="stylesheet" href="/vistas/css/style-login-register.css">
+    <?php
+        break;
+
+    case "home.php":
+    ?>
+        <title>Home</title>
+        <link rel="stylesheet" href="/vistas/css/plantilla-header.css">
+        <link rel="stylesheet" href="/vistas/css/style-index.css">
 <?php
+        break;
 }
 
 ?>
